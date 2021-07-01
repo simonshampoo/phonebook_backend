@@ -41,6 +41,7 @@ app.get("/api/persons/:id", (request, response) => {
       reponse.status(400).send({ error: "malformatted id" });
     });
 });
+
 app.delete("/api/persons/:id", (request, response) => {
   Person.findByIdAndRemove(request.params.id)
     .then((person) => {
