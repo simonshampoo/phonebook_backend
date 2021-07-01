@@ -27,7 +27,7 @@ app.get("/api/persons", (request, response) => {
     response.json(persons);
   }).catch(error => {
     console.log(error)
-    response.status(400)
+    response.status(400).end()
   });
 });
 
