@@ -3,6 +3,5 @@
 Looks like I committed the whole app-- nothing meaningful is here. Whoops. 
 
 
-Full-stack application using React.js, Node.js, Express.js, MongoDB/Mongoose. 
+Full-stack application using React.js, Node.js, Express.js, MongoDB/Mongoose with fully functioning REST api and CRUD abilities. 
 
-Filter, add, and delete contacts from the phonebook. 
