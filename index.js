@@ -25,6 +25,9 @@ app.use(
 app.get("/api/persons", (request, response) => {
   Person.find({}).then((persons) => {
     response.json(persons);
+  }).catch(error => {
+    console.log(error)
+    response.status(400)
   });
 });
 
